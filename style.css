@@ -23,7 +23,6 @@
 .banner-title {
     display: flex;
     width: 550px;
-    flex-direction: column;
     color: #272727;
     font-size: 65px;
     font-weight: 800;
@@ -32,7 +31,6 @@
 .banner-desc {
     display: flex;
     width: 550px;
-    flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -50,21 +48,134 @@
     border: none;
     cursor: pointer;
 }
+
 /* Section Design==> Featured flower design */
-.feature-title{
+.feature-title {
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     padding: 70px 0px 0px 0px;
 }
-.feature-desc{
-padding:10px 400px;
+
+.feature-desc {
+    padding: 10px 400px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* .flowers{
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+}
+.fl-desc{
+    text-align: center;
+    
+}
+.flower1 img{
+    width: 300px;
+    height: 400px;  
+    position: relative; 
+}
+.flower1{
+    width: 400px;
+height: 480px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
 align-items: center;
-color: rgba(39, 39, 39, 0.60);
+justify-content: center;
+}
+.flower2 img{
+    width: 310px;
+height: 428px;   
+}
+.flower3 img{
+    width: 310px;
+height: 428px;   
+} */
+
+.extra{
+    display: flex;
+    margin: 10px 240px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 8px; 
+background-color: rgba(39, 39, 39, 0.05);
+padding:50px 0px;
+}
+.extra img{
+    width: 88px;
+    height: 88px;
+}
+
+
+/* Deal section design */
+.deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 8px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin: 120px 0;
+}
+.deal-title{
+    color: #272727;
+font-size: 37px;
+font-weight: 800;
+}
+.deal-content{
+    padding:20px;
+}
+.deal-desc{
+    width: 590px;
+    color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 25px;
-justify-content: center;
+padding:10px 10px;
+}
+.deal img{
+    width: 300px;
+height: 400px;
+padding: 30px;
+}
+
+/* Instagram section design */
+
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 70px 0px 0px 0px;
+}
+
+.insta-desc {
+    padding: 10px 400px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.insta-flowers{
+    margin: 50px 240px;
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+
+}
+.insta-flowers img{
+    width: 300px;
+height: 350px;
+padding: 0px 10px;
 }
