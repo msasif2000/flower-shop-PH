@@ -1,11 +1,10 @@
 /* banner design */
 * {
-    margin: 0;
+    margin: 0px;
 }
 
 .head {
     background: rgba(229, 84, 115, 0.10);
-    width: auto;
     height: 650px;
     display: flex;
     align-items: center;
@@ -14,7 +13,7 @@
 }
 
 .head img {
-    width: 600px;
+    width: 550px;
     height: 600px;
     padding-top: 50px;
     padding-left: 50px;
@@ -22,7 +21,7 @@
 
 .banner-title {
     display: flex;
-    width: 550px;
+    /* width: 550px; */
     color: #272727;
     font-size: 65px;
     font-weight: 800;
@@ -67,104 +66,113 @@
     line-height: 25px;
 }
 
-.flowers{
+.flowers {
     display: flex;
     justify-content: space-evenly;
-   align-items: center;
-   margin:50px 90px;
+    align-items: center;
+    margin: 50px 90px;
 }
-.fl-desc{
-    margin-top:10px;
+
+.fl-desc {
+    margin-top: 10px;
     text-align: center;
+    font-size: 20px;
     text-decoration: underline;
 }
-.flower1 img{
-    width: 300px;
-    height: 380px;  
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-padding:30px 30px 0px 30px; 
-}
-.flower2 img{
-    width: 300px;
-    height: 380px;    
 
-    border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-padding:30px 30px 0px 30px; 
-}
-.flower3 img{
+.flower1 img {
     width: 300px;
-    height: 380px;    
+    height: 380px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-padding:30px 30px 0px 30px;  
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 20px 0px 20px;
 }
 
-.service{
+.flower2 img {
+    width: 300px;
+    height: 380px;
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 30px 20px 0px 20px;
+}
+
+.flower3 img {
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 30px 20px 0px 20px;
+}
+
+.service {
     display: flex;
     margin: 40px 240px;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    border-radius: 8px; 
-background-color: rgba(39, 39, 39, 0.05);
-padding:50px 0px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 50px 0px;
 }
-.service img{
+
+.service img {
     width: 88px;
     height: 88px;
 }
 
 
 /* Deal section design */
-.deal{
+.deal {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
     border-radius: 8px;
-    border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-margin: 120px 0;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 120px 0;
 }
-.deal-title{
+
+.deal-title {
     color: #272727;
-font-size: 37px;
-font-weight: 800;
+    font-size: 35px;
+    font-weight: 800;
 }
-.deal-content{
-    padding:20px;
+
+.deal-content {
+    padding: 20px;
 }
-.deal-desc{
-justify-content: center;
+
+.deal-desc {
+    justify-content: center;
     width: 100%;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 25px;
-padding:10px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 10px 10px;
 }
-.deal img{
+
+.deal img {
     width: 300px;
-height: 400px;
-padding: 30px;
+    height: 400px;
+    padding: 30px;
 }
 
 /* Instagram section design */
 
-.insta-title{
+.insta-title {
     color: #272727;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    padding:30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 .insta-desc {
     display: flex;
-    width:100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -175,35 +183,36 @@ padding: 30px;
     line-height: 25px;
 }
 
-.insta-flowers{
-    margin: 50px 240px;
+.insta-flowers {
+    margin: 50px 90px;
     display: flex;
     justify-content: space-evenly;
-   align-items: center;
+    align-items: center;
 
 }
-.insta-flowers img{
+
+.insta-flowers img {
     width: 300px;
-height: 350px;
-padding: 0px 10px;
+    height: 350px;
+    padding: 0px 10px;
 }
 
-.subscribe{
-    
+.subscribe {
     background-image: url('./Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin:60px 240px;
-    padding:50px 100px;
+    margin: 60px 240px;
+    padding: 50px 60px;
     align-items: center;
     border-radius: 8px;
     text-align: center;
 }
-.email input[type="email"]{
-height:40px;
-border-radius: 8px;
-background: #FFF;
+
+.email input[type="email"] {
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
     margin: 25px 5px;
     padding: 12px 35px;
     border-radius: 5px;
@@ -212,27 +221,88 @@ background: #FFF;
     width: 60%;
 }
 
+/* Review section design */
+.reviews {
+    margin: 40px 240px;
+    background-color: rgba(39, 39, 39, 0.05);
+    ;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cart p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cart h4 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.cart p {
+    text-align: center;
+}
+
+.btnlast {
+    padding: 5px 8px;
+    border-radius: 8px;
+    background: #c4b8bb;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.btnlast:hover {
+    background-color: #E55473;
+    color: #fffefe;
+    cursor: pointer;
+}
+
+.cart {
+    width: 20%;
+    height: auto;
+    box-shadow: 4px 4px 15px rgb(174, 169, 169);
+    background-color: #E55473;
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
 /* Footer design */
-footer{
+footer {
     background: #111010;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color:rgba(255, 255, 255, 0.90) ;
-    padding:110px 0px;
+    color: rgba(255, 255, 255, 0.90);
+    padding: 110px 0px;
 }
-.foot-desc{
+
+.foot-desc {
     display: flex;
-    width:100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10px;;
-    color:rgba(255, 255, 255, 0.90);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
 }
-.copy{
+
+.copy {
     padding: 30px 0px;
 }
